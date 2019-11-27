@@ -1,0 +1,50 @@
+﻿@model CyberpunkInTheHouse.Models.Client
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+@{
+    ViewBag.Title = "Authorized";
+    Layout = "";
+    @Styles.Render("~/Content/css")
+}
+
+@if ((int)(@ViewData["Current_user"]) == 2)
+{
+    <div>Я обычный юзер</div>
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal" style="height: 60vh">
+        <div class="AuthReg-Title">Authorized</div>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Sign in" class="btn btn-default" />
+                <a href="~/Home/Registration" class="btn btn-default">or Registration</a>
+            </div>
+        </div>
+        <div style="padding-top: 20vh;">
+            <a href="~/Home/Index" class="btn btn-default">&laquo; На главную</a>
+        </div>
+    </div>
+}

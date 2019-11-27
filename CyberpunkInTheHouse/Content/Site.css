@@ -1,12 +1,150 @@
 ﻿body {
+
     padding-top: 50px;
     padding-bottom: 20px;
+    background: #f2f2f2;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+.carousel-control.left {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-control.right {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-control .glyphicon-chevron-left::before,
+.carousel-control .glyphicon-chevron-right::before {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 50%;
+    background: #808080;
+}
+
+.carousel-indicators li {
+    border: 1px solid #000;
+}
+
+.prod-img {
+    width: 30vw;
+}
+
+
+/*То, что менял Я    ------------------------------------------------------------------------------------------------*/
+.prod-info {
+    width: 30vw;
+    color: #f2f2f2;
+    padding: 20rem;
+    border-radius: 5%;
+    background: #222222;
+}
+
+.active-back {
+    background: #000;
+}
+
+
+.jumbotron {
+    background: #fff;
+}
+/*Swiper CSS*/
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #222222;
+}
+
+.swiper-pagination-bullet {
+    background: #7933e6;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    color: rgba(121, 51, 230, 0.75);
+}
+
+.AuthReg-Title {
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    border: 0px solid #222222;
+    background: #ff8989;
+}
+
+.btn {
+    border: 0px solid;
+    color: #ffffff;
+    background: #d40024;
+}
+
+/*.col-md-10{
+    width: 30vw;
+    margin-right: 10vw;
+}*/
+
+
+
+.form-horizontal {
+    box-shadow: 1px 1px 10px 0px #000;
+    background-image: url("Images/Auth.Reg/backAuthReg.jpg");
+    background-size: 45vw;
+    background-clip: border-box;
+    background-repeat: round;
+    border-radius: 2%;
+    margin-left: 50ch;
+    max-width: 60%;
+    color: #fd1b40;
+    width: 50vw;
+    margin-top: 5ch;
+    padding: 1ch;
+}
+
+.from-group {
+    width: 40vw;
+}
+
+.field-validation-error {
+    color: #ff0000;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 

@@ -1,0 +1,8 @@
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberDAL\bin\Debug\CyberDAL.dll
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberDAL\bin\Debug\CyberDAL.pdb
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberDAL\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberDAL\obj\Debug\CyberDAL.csprojAssemblyReference.cache
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberDAL\obj\Debug\CyberDAL.csproj.CoreCompileInputs.cache
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberDAL\obj\Debug\CyberDAL.csproj.CopyComplete
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberDAL\obj\Debug\CyberDAL.dll
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberDAL\obj\Debug\CyberDAL.pdb

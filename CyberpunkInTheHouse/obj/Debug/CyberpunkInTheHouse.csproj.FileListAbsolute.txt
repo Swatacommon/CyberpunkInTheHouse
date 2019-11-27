@@ -106,3 +106,5 @@ D:\Studying\Courseworks\CyberpunkInTheHouse\CyberpunkInTheHouse\obj\Debug\Cyberp
 D:\Studying\Courseworks\CyberpunkInTheHouse\CyberpunkInTheHouse\obj\Debug\CyberpunkInTheHouse.dll
 D:\Studying\Courseworks\CyberpunkInTheHouse\CyberpunkInTheHouse\obj\Debug\CyberpunkInTheHouse.pdb
 D:\Studying\Courseworks\CyberpunkInTheHouse\CyberpunkInTheHouse\bin\Oracle.ManagedDataAccess.dll
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberpunkInTheHouse\bin\CyberDAL.dll
+D:\Studying\Courseworks\CyberpunkInTheHouse\CyberpunkInTheHouse\bin\CyberDAL.pdb
